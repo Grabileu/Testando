@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/Logo Super Machado pequeno.png" type="image/x-icon">
+</head>
+<body>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required placeholder="Digite seu Email" autocomplete="email" size="25">
+            
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" min="0" max="99">
+            </div>
+
+            <div>
+                <input type="radio" name="sexo" id="masculino" value="Masculino">
+                <label for="masculino">Masculino</label> <br>
+
+                <input type="radio" name="sexo" id="feminino" value="Feminino">
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,3 @@
+{"data":"2025-10-28 17:01:31","email":"gabrielumbelino34@gmail.com","idade":20,"sexo":""}
+{"data":"2025-10-28 17:02:35","email":"gabrielumbelino34@gmail.com","idade":20,"sexo":"Masculino"}
+{"data":"2025-10-28 19:05:25","email":"gabrielumbelino34@gmail.com","idade":1,"sexo":"Masculino"}
