@@ -8,7 +8,7 @@
     }
 
     header {
-        width: 100%;
+
     }
 
     header h1 {
@@ -20,7 +20,7 @@
     }
 
     main {
-        width: 100%;
+        width: auto;
     }
 
     #unico {
