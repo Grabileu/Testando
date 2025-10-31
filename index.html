@@ -3,35 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu site</title>
+    <title>So pra zuar</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="imagem/Logo Super Machado pequeno.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo.css" media="screen and (orientation: portrait)">
 </head>
 <body>
-    <form action="cadastro.php" autocomplete="on" method="post">
-        <fieldset>
-            <legend>Cadastro</legend>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required placeholder="Digite seu Email" autocomplete="email" size="25">
-            
-            <div>
-                <label for="idade">Idade:</label>
-                <input type="number" name="idade" id="idade" min="0" max="99">
-            </div>
+    <header>
+        <h1>Vamos fazer um site?</h1>
+        <p>Aonde tudo começou</p>
+    </header>
 
-            <div>
-                <input type="radio" name="sexo" id="masculino" value="Masculino">
-                <label for="masculino">Masculino</label> <br>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Noticias</a>
+        <a href="#">Contato</a>
+    </nav>
 
-                <input type="radio" name="sexo" id="feminino" value="Feminino">
-                <label for="feminino">Feminino</label>
-            </div>
+    <main>
+        <article>
+            <h2>Vamos começar com uma ideia maravilhosa!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ducimus et eos soluta pariatur repudiandae atque qui totam hic eveniet ullam saepe veritatis nulla ad incidunt, repellendus voluptates amet possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, sunt. Deleniti neque suscipit reprehenderit eligendi quos consequatur. Repudiandae, dignissimos vero hic provident voluptatibus blanditiis quasi culpa. Quidem, culpa accusantium! Fuga!</p>
 
-            <div>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpar">
-            </div>
-        </fieldset>
-    </form>
+        <h2 id="unico">Você gostou do texto?</h2>
+        <input type="radio" name="pergunta" id="sim">
+        <label for="sim">Sim</label> <br>
+
+        <input type="radio" name="pergunta" id="nao">
+        <label for="nao">Não</label> <br>
+        
+        <label for="texto">Digite o porque:</label><br>
+        <textarea name="texto" id="texto" cols="30" rows="10">
+
+        </textarea>
+        </article>
+
+        <ul>
+            <li>Banana</li>
+        </ul>
+    </main>
 </body>
 </html>

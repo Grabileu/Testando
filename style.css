@@ -1,3 +1,76 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --corprincipal: rgb(38, 73, 38);
+}
+
+body {
+    background-color: rgb(211, 255, 220);
+}
+
+header {
+    text-align: center;
+    background-color: var(--corprincipal);
+    color: white;
+    padding: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+header h1 {
+    font-size: 50px;
+    text-shadow: 1px 1px 3px black;
+}
+
+header p {
+    font-size: 20px;
+}
+
+nav {
+    background-color: var(--corprincipal);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 13px rgb(38, 73, 38);
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(58, 116, 61);
+    transition: all 0.4s;
+}
+
+main {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 7px 10px;
+    text-align: justify;
+    box-shadow: 1px 1px 10px rgb(139, 168, 145);
+}
+
+main p {
+    text-indent: 20px;
+    padding: 5px 0px;
+}
+
+main #unico {
+    margin-top: 10px;
+}
+
+#cagada {
+    margin-top: 20px;
+}
