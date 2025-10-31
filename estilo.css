@@ -7,6 +7,10 @@
         width: 100vw;
     }
 
+    header {
+        width: 100%;
+    }
+
     header h1 {
         font-size: 40px;
     }
@@ -16,7 +20,7 @@
     }
 
     main {
-        width: 465px;
+        width: 100%;
     }
 
     #unico {
